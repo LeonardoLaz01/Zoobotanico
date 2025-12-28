@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bosque Municipal - Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="design/style.css">
+</head>
+<body>
+  <header >
+  </header>
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-image">
+          <img src="imagens/Entrada01.jpg" alt="Imagem do bosque">
+        </div>
+        <div class="hero-text">
+          <h1>Bem-vindo ao Zoobotânico de Rio Preto <i class="fa-brands fa-pagelines" style="color: #2d6a4f;"></i></h1>
+          <p class="lead">Natureza, conservação e educação ambiental. Venha conhecer nossas espécies e agende sua visita.</p>
+          <div class="hero-actions">
+            <a href="about.html" class="btn">Saiba mais</a>
+            <a href="contact.html" class="btn btn-outline">Agendar visita</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Sobre -->
+     <section class="about-section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h1>Sobre o Zoobotânico</h1>
+          <p>O Bosque Municipal foi fundado em 1973 durante a administração do prefeito Wilson Romano Callil. O complexo possui mata nativa e um zoológico com aproximadamente 300 animais, divididos entre 75 espécies.</p>
+          <p>Nossa missão é preservar a fauna e a flora locais e promover educação ambiental para a comunidade. Recebemos escolas e grupos em visitas orientadas para incentivar a consciência ecológica.</p>
+          <h3>Breve linha do tempo</h3>
+          <ul class="timeline">
+            <li><strong>1973:</strong> Fundação</li>
+            <li><strong>1990:</strong> Ampliação do viveiro de aves</li>
+            <li><strong>2015:</strong> Programa de educação ambiental</li>
+          </ul>
+        </div>
+        <div class="about-photo">
+          <img src="imagens/Harpias.jpg" alt="Foto do bosque">
+        </div>
+      </div>
+      <div style="line-height:0;">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:120px;display:block;">
+        <path fill="white" d="M0,160 C120,120 240,80 360,96 C480,112 600,208 720,208 C840,208 960,112 1080,96 C1200,80 1320,120 1440,144 L1440,320 L0,320 Z"></path>
+      </svg>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact-section">
+      <div class="container contact-grid">
+        <div>
+          <h1>Contato</h1>
+          <p>📅 Dias e Horários de Visitação <br>
+            📍 Terça a domingo <br>
+            🕘 Horários de entrada: 9h, 11h, 13h e 15h <br>
+            ⏱️ Duração máxima da visita: 2 horas
+            🚪 Entrada por ordem de chegada ou com agendamento online <br>
+            🚫 Fechado todas as segundas-feiras, no Natal (25/12) e Ano Novo (01/01) <br>
+            ⏱️ Havendo vagas disponíveis, o horário limite de entrada para visitação do Zoobotânico será 16h <br>
+            ⏱️ IMPORTANTE! Para quem faz o agendamento online:  a vaga é garantida apenas até 15 minutos após o horário de visitação escolhido.  Ex: O horário agendado é 13h, o agendamento só da direito garantido de entrada até 13h15. Após este tempo, a pessoa deverá entrar na fila dos sem agendamento</p>
+        </div>
+        <form id="contactForm" class="contact-form" onsubmit="return handleSubmit(event)">
+          <label>
+            Nome
+            <input type="text" name="nome" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+    
+    <section class="faq">
+  <div class="faq-card">
+    <h2>FAQs</h2>
+
+    <div class="faq-item">
+      <button class="faq-question">Quanto tempo pode durar a visita?</button>
+      <div class="faq-answer">
+        R - As visitas podem ser realizadas nas duas horas seguintes ao seu agendamento. Ex - 9h - realizar a visita até 11h; 11h - realizar a visita até 13h;
+        A tolerância para atrasos é de 15 minutos do horário inicial agendado.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Qual o limite de visitantes por horário?</button>
+      <div class="faq-answer">
+        R - São 600 pessoas por horário (9, 11, 13 e 15h), total de 2.400 pessoas dia.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Pago alguma coisa para visitar o Zoobotânico?</button>
+      <div class="faq-answer">
+        R - A visita é gratuita, sem custo, necessitando apenas do agendamento.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Preciso fazer cadastro de todos os visitantes?</button>
+      <div class="faq-answer">
+        R - Com um cadastro realizado pode trazer 04 convidados, ou seja, um cadastro permite 05 visitantes!  Faça a carona solidária e traga a lotação de um carro de passeio, colaborando para o Meio Ambiente.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Posso levar lanches para picnic?</button>
+      <div class="faq-answer">
+        R - Com a reforma do Zoobotânico, e as intercorrências que tínhamos com o fornecimento de alimentos aos animais, não é permitido picnic e lanches durante o passeio.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Posso levar animais de estimação?</button>
+      <div class="faq-answer">
+        R - Com exceção dos cães guia - devidamente identificados, os demais animais de estimação não podem entrar no Zoobotânico, para o bem da saúde dos animais silvestres e dos animais domésticos., considerando a possibilidade de transmissão de doenças.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Preciso imprimir o comprovante de agendamento?</button>
+      <div class="faq-answer">
+        R - A bilheteria possui a listagem de quem agendou, não sendo necessário imprimir, até mesmo em preservação ao meio ambiente, pode trazer o print no seu celular do agendamento.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+    <!-- Horário e mapa -->
+    <section class="info-strip">
+      <div class="container info-grid">
+        <div>
+          <h3>Horário de Funcionamento</h3>
+          <p>Aberto diariamente • 09:00 — 17:00</p>
+          <p>Entrada gratuita • Visitas guiadas aos sábados</p>
+        </div>
+        <div>
+          <h3>Localização</h3>
+          <!-- mapa embed -->
+          <div class="map-embed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.3697328451008!2d-49.35560729999999!3d-20.776324799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad4f46c96481%3A0x2ea224358b9462a6!2sZoobot%C3%A2nico%20Municipal%20de%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto!5e0!3m2!1spt-BR!2sbr!4v1764711406569!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Zoobotânico</strong>
+        <p>Av. Nelson da Veiga, 1400 - Jardim do Bosque, São José do Rio Preto - SP, 15053-600 • (17) 3225-3930</p>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Zoobotânico — Trabalho Acadêmico</div>
+  </footer>
+
+  <script src="script/script.js"></script>
+  <script src="https://kit.fontawesome.com/d08b469bac.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

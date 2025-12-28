@@ -1,0 +1,46 @@
+Atividade Extensionista
+
+dia 1 - 01/12/2025 | Inicio, escolhendo as ferramentas que serão usadas no projetos e as funcionalidades que podem ser aplicadas no site
+dia 2 - 02/12/2025 | refazendo o modelo previamente estabelecido para acrescentar visuais mais agradáveis
+dia 3 - 03/12/2025 | Trabalhando na parte HTML e CSS.
+
+
+ <!-- FAQ -->
+    <section class="faq-section">
+      <div class="container faq-box">
+        <h1>FAQs</h1>
+        <div>
+          <h2>Qual o limite de visitantes por horário?</h2>
+          <p>São 600 pessoas por horário (9, 11, 13 e 15h), total de 2.400 pessoas dia.</p>
+        </div>
+        <div>
+          <h2>Pago alguma coisa para visitar o Zoobotânico?</h2>
+          <p> A visita é gratuita, sem custo, necessitando apenas do agendamento.</p>
+        </div>
+        <div>
+          <h2>Minha família são 04 pessoas, preciso fazer o cadastro?</h2>
+          <p>Com um cadastro realizado pode trazer 04 convidados, ou seja, um cadastro permite 05 visitantes!  Faça a carona solidária e traga a lotação de um carro de passeio, colaborando para o Meio Ambiente.</p>
+        </div>
+        <div>
+          <h2>As crianças e/ou bebês contam como visitantes?</h2>
+          <p>Todos são importantes para nós, assim crianças e bebês são considerados visitantes.</p>
+        </div>
+        <div>
+          <h2>Posso levar os lanches para fazer picnic/lanches durante a  visita</h2>
+          <p>Com a reforma do Zoobotânico, e as intercorrências que tínhamos com o fornecimento de alimentos aos animais, não é permitido picnic e lanches durante o passeio.</p>
+        </div>
+        <div>
+          <h2>Meus animais de estimação podem me acompanhar na experiência Zoobotânico?</h2>
+          <p>Com exceção dos cães guia - devidamente identificados, os demais animais de estimação não podem entrar no Zoobotânico, para o bem da saúde dos animais silvestres e dos animais domésticos., considerando a possibilidade de transmissão de doenças.</p>
+        </div>
+        <div>
+          <h2>Quanto tempo pode durar a visita?</h2>
+          <p>As visitas podem ser realizadas nas duas horas seguintes ao seu agendamento. Ex - 9h - realizar a visita até 11h; 11h - realizar a visita até 13h; A tolerância para atrasos é de 15 minutos do horário inicial agendado.</p>
+        </div>
+        <div>
+          <h2>Devo imprimir o comprovante de agendamento, para apresentar na bilheteria?</h2>
+          <p>A bilheteria possui a listagem de quem agendou, não sendo necessário imprimir, até mesmo em preservação ao meio ambiente, pode trazer o print no seu celular do agendamento.</p>
+        </div>
+      </div>
+    </section> 
+  
