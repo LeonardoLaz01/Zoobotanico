@@ -174,10 +174,10 @@ header{
   margin-top:8px;
 }
 
-/* FAQ SECTION */
+/* Faq */
 .faq {
   width: 100%;
-  height: 1000px;
+  min-height: 1000px;
   padding: 60px 20px;
   display: flex;
   justify-content: center;
@@ -186,7 +186,7 @@ header{
   background-size: cover;
 }
 
-/* CARD */
+/*  Faq Card */
 .faq-card {
   background: #fff;
   padding: 30px;
@@ -203,13 +203,13 @@ header{
   font-weight: bolder;
 }
 
-/* FAQ ITEM */
+/* Item */
 .faq-item {
   border-top: 1px solid #e0e0e0;
   padding: 12px 0;
 }
 
-/* QUESTION */
+/* Question */
 .faq-question {
   width: 100%;
   padding: 14px 0;
@@ -243,7 +243,7 @@ header{
   content: "-";
 }
 
-/* ANSWER */
+/* Answer */
 .faq-answer {
   max-height: 0;
   overflow: hidden;
@@ -293,6 +293,7 @@ header{
   .nav-toggle{display:inline-block}
   .main-nav{position:fixed;right:12px;top:64px;background:#fff;padding:12px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.12);display:none;flex-direction:column}
   .main-nav.open{display:flex}
+  .faq{height: max-content;}
 }
 
 @media (max-width: 600px) {
