@@ -6,4 +6,4 @@ Site do zoobotânico de rio preto, feito para a atividade extensionista da Unint
 
 ![Screenshot of the solution](./screenshot.png)
 
-- Site URL: [Recipe page](https://leonardolaz01.github.io/Zoobotanico/)
+- Site URL: [Site](https://leonardolaz01.github.io/Zoobotanico/)
