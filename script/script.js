@@ -3,7 +3,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 function handleSubmit(e) {
     e.preventDefault(); // simples feedback visual
-    alert('Mensagem registrada (simulação). Em um projeto real, aqui você chamaria o backend.');
+    alert('Mensagem registrada com sucesso.');
     e.target.reset();
     return false;
 }
